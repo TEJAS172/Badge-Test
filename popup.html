@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSITION</title>
+    <link rel="stylesheet" href="assets/popup.css">
+</head>
+<body>
+    <p class="zz">CSS MODAL</p>
+    <section class="time">
+        <dialog id="dd">
+            <button id="btn2">&times;</button>
+            <h1>TEJAS M</h1>
+            <p style="font-size: 15px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi accusamus est odio neque aliquam aperiam delectus quam esse hic optio beatae iure nostrum impedit, fugit dicta ea ad? Culpa, neque.</p>
+        </dialog>
+        <button id="btn1">View more</button>
+        <script>
+            document.getElementById("btn1").onclick = function(){
+                document.getElementById("dd").show();
+            }
+        </script>
+        <script>
+            document.getElementById("btn2").onclick = function(){
+                document.getElementById("dd").close();
+            }
+        </script>
+    </section>
+    <div class="common" id="d1"></div>
+    </section>
+    
+</body>
+</html>

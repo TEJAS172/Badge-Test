@@ -1,0 +1,32 @@
+.b1 {
+    height: 40px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.b1{
+    background:black;
+    animation: tejas 5s infinite;
+}
+@keyframes tejas{
+    from{background:red}
+    to{background: blue;}
+}
+.b2 {
+    height: 40px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.b2{
+    background:black;
+    animation: tej 5s infinite;
+}
+@keyframes tej{
+    from{background:black;}
+    to{background: red;}
+}
